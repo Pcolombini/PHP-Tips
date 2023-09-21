@@ -1,0 +1,23 @@
+{
+  "name": "paschoal/phpips003",
+  "description": "Enviando emails autenticados em smtp com phpmailer | php tips 003",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Paschoal Colombini",
+      "email": "paschoal.colombini@live.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "files": [
+    "source/Config.php"
+  ],
+  "require": {
+    "phpmailer/phpmailer": "6.*"
+  }
+}
