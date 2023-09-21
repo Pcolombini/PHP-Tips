@@ -1,0 +1,23 @@
+{
+  "name": "paschoal/phptips004",
+  "description": "Rotas, call backs e estrutura MVC com router",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paschoal Colombini",
+      "email": "paschoal.colombini@live.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "files": [
+    "source/Config.php"
+  ],
+  "require": {
+    "coffeecode/router": "1.0.*"
+  }
+}
